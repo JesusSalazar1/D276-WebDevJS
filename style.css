@@ -1,0 +1,32 @@
+ul.certs {
+    list-style-type: disc ;
+}
+
+a:hover {
+    color: black;
+}
+
+tr td {
+    color:blue;
+
+}
+
+p {
+    font-size: larger;
+}
+
+#exp {
+    font-size: larger;
+}
+
+a {
+    background-color: red;
+    color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+audio {
+    margin-top: 0%;
+}
