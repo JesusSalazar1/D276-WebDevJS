@@ -44,7 +44,68 @@
     </main>
 
     <footer>
+        <h2>Contact Me</h2>
+        <form action="https://wp.zybooks.com/form-viewer.php" method="post">
+            <p>
+                <label for="first">First Name:</label>
+                <input type="text" name="first" id="first">
+            </p>
+            
+            <p>
+                <label for="last">Last Name:</label>
+                <input type="text" name="last" id="last">
+            </p>
+            
+            <p>
+                <label for="company name">Company Name:</label>
+                <input type="text" name="company name" id="company name">
+            </p>
+
+            <p>
+                <label for="email address">Email:</label>
+                <input type="email" name="email address" id="email address">
+            </p>
+
+            <p>
+                <label for="phone number">Phone Number:</label>
+                <input type="tel" name="phone number" id="phone number">
+            </p>
+
+            <p>
+                <label for="message">Message:</label>
+                <textarea name="message" id="message" rows="6" cols="20"></textarea>
+            </p>
+
+            <p>Select your best contact time:</p>
+            <div>
+                <input type="radio" name="contact time" value="AM" id="AM">
+                <label for="AM">AM</label>
+            </div>
+
+            <div>
+                <input type="radio" name="contact time" value="PM" id="PM">
+                <label for="PM">PM</label>
+            </div>
+
+            <div>
+                <input type="radio" name="contact time" value="Anytime" id="Anytime">
+                <label for="Anytime">Anytime</label>
+            </div>
+
+
         
+
+        <br>
+
+        <p>Select a preferred contact method:</p>
+        <select name="Contact option" id="Contact option">
+            <option value="Phone">Phone</option>
+            <option value="Email">Email</option>
+            <option value="Text">Text</option>
+        </select>
+        <br><br>
+                            <input type="submit">
+                            </form>
     </footer>
 
 
